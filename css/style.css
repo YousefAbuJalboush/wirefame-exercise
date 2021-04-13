@@ -55,6 +55,7 @@ main section article:last-child div:last-child {
     font-size: 26px;
     font-weight: 500;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 15px ;
 }
 main section article:last-child div:last-child h3 {
     padding-bottom: 7px;
@@ -74,3 +75,10 @@ main section article:last-child div:last-child button {
     margin: 9px 0px;
 }
 
+/* ********************************** footer ********************************** */
+footer{
+    margin-top: 15px ;
+    clear: both;
+    height: 150px;
+    background-color: #444;
+}
