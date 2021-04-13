@@ -1,6 +1,8 @@
 body{
     background-color: whitesmoke ;
 }
+
+/* ********************************** header ********************************** */
 header {
     background-color: #444;
     display: flex ;
@@ -13,3 +15,62 @@ header nav ul li  {
     display: inline-block;
     padding: 25px 50px;
 }
+
+
+
+
+/* ********************************** main ********************************** */
+main section article{
+    margin: 30px 150px 15px 150px;
+}
+main section article:first-child img {
+    width: 100%;
+}
+
+
+main section article:nth-child(2) div{
+    display: inline-block;
+    width: 31.4%;
+}
+main section article:nth-child(2) div:nth-child(2){
+    padding: 0px 30px;
+}
+
+main section article:nth-child(2) div img{
+    width: 100%;
+}
+
+
+main section article:last-child div:first-child {
+    float: left;
+    width: 49%;
+}
+main section article:last-child div:first-child img {
+    width: 100%;
+}
+
+main section article:last-child div:last-child {
+    float: right;
+    width: 49%;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main section article:last-child div:last-child h3 {
+    padding-bottom: 7px;
+    font-weight: 600;
+    font-size: 28px;
+}
+main section article:last-child div:last-child p {
+    /* text-align: justify; */
+    overflow: hidden;
+    height: 420px;
+}
+main section article:last-child div:last-child button {
+    padding: 7px 20px;
+    background-color: black;
+    color: #969696;
+    font-weight: 600;
+    margin: 9px 0px;
+}
+
