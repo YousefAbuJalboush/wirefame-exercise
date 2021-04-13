@@ -1,0 +1,15 @@
+body{
+    background-color: whitesmoke ;
+}
+header {
+    background-color: #444;
+    display: flex ;
+    padding: 10px 150px ;
+    font-size: 20px;
+    color: #969696;
+    font-family: Arial;
+}
+header nav ul li  {
+    display: inline-block;
+    padding: 25px 50px;
+}
